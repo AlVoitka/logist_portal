@@ -1,10 +1,16 @@
 
-import Header from "../app-header/Header";
+import Header from '../header/header';
+
+
+
+import './app_style.scss';
+
+
 
 function App() {
     return (
-      <div className="App">
-          <Header/>
+      <div className="app">
+        <Header/>
       </div>
     );
   }

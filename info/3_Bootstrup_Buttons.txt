@@ -1,0 +1,25 @@
+https://react-bootstrap.github.io/components/buttons/
+
+Для того чтобы подключить к компоненту импортирую элементы:
+
+import { Button } from 'react-bootstrap'
+
+1. Применение свойств к зарезервированным компонентам:
+
+ЦВЕТ И КОНТУР
+
+ <Button variant="primary">Primary</Button>{' '}
+ variant="primary" -  это варианты цвета
+
+ <Button variant="outline-primary">Primary</Button>{' '}
+ variant="outline-primary"  -  так будет кнопка с контуром
+
+РАЗМЕР
+
+    <Button variant="primary" size="lg">
+    size="lg   - два варианта 'sm' - малый  | 'lg' - большой
+
+ОТЛЮЧЕНИЕ КНОПКИ
+
+ <Button variant="primary" size="lg" disabled>
+ disabled - делает кнопку неактивной
